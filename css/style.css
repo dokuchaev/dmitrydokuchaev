@@ -33,32 +33,32 @@ a:hover{
 }
 
 .menu {
-font-family: "PT Sans";
-display: inline-block;
-background: #E3EEFB;
-padding: 5px 16px 5px 16px;
-border-radius: 4px;
-font-size: 0;
-line-height: 14px;
+	font-family: "PT Sans";
+	display: inline-block;
+	background: #E3EEFB;
+	padding: 5px 16px 5px 16px;
+	border-radius: 4px;
+	font-size: 0;
+	line-height: 14px;
 }
 
 .menu li {
-display: inline-block;
-font-size: 16px;
-line-height: 20px;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 .menu li:after {
 
-content: '•';
-font-size: 16px;
-line-height: 2px;
-vertical-align: middle;
-padding: 0 10px 0 10px;
+	content: '•';
+	font-size: 16px;
+	line-height: 2px;
+	vertical-align: middle;
+	padding: 0 10px 0 10px;
 }
 
 .menu li:last-child:after {
-padding: 0;
-content: '';
-font-size: 0;
+	padding: 0;
+	content: '';
+	font-size: 0;
 }
