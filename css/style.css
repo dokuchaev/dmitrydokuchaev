@@ -1,0 +1,64 @@
+
+.container {
+	text-align: center;
+	margin: auto;
+	top: -20%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	width: 320px;
+	height: 230px;
+	font-family: "PT Serif", sans-serif;
+	font-size: 32px;
+	color: #0A0A0A;
+}
+
+
+.email {
+	
+	font-family: "PT Serif";
+	font-size: 20px;
+}
+
+
+a, a:visited {
+	color: #0072ba;
+	text-decoration: none;
+	border-bottom: 1px solid #0072ba;
+}
+a:hover{
+	color: #B10B1F;
+	border-bottom: 1px solid #B10B1F;
+}
+
+.menu {
+font-family: "PT Sans";
+display: inline-block;
+background: #E3EEFB;
+padding: 5px 16px 5px 16px;
+border-radius: 4px;
+font-size: 0;
+line-height: 14px;
+}
+
+.menu li {
+display: inline-block;
+font-size: 16px;
+line-height: 20px;
+}
+
+.menu li:after {
+
+content: '•';
+font-size: 16px;
+line-height: 2px;
+vertical-align: middle;
+padding: 0 10px 0 10px;
+}
+
+.menu li:last-child:after {
+padding: 0;
+content: '';
+font-size: 0;
+}
